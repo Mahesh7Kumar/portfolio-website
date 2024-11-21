@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icon2.png">
+    <title>portfolio mahe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" class="checkbox" id="check">
+        <h1 class="nav_head">Mahe.</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+        </ul>
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+     
+    <section id="home" class="home">
+        <img src="image.png" alt="" width="400px"  height="400px">
+        <div class="description">
+            <h1>Hello I'm  <br><span>Mahesh Kumar.I</span></h1>
+            <h2> I'M a <span>Web Developer...</span></h2>
+            <p>Dedicated and detail-oriented Web Developer with a strong foundation in HTML, CSS, and JavaScript, along with hands-on experience in responsive design and modern web development practices. Skilled in creating visually appealing and user-friendly websites, with a passion for learning and staying up-to-date with emerging technologies</p>
+            <div class="font">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-duotone fa-solid fa-envelope"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fas fa-phone"></i>
+            </div>
+            <button>Download CV</button>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="about_section">
+            <h1>About<span> Me</span></h1>
+            <h2>Web<span> Developer!</span></h2>
+            <p>Hello! I'm a passionate web developer with a keen eye for creating seamless and engaging digital experiences. With a solid foundation in front-end and back-end technologies, I enjoy building websites that are not only visually appealing but also functional and user-friendly.My expertise spans HTML, CSS, JavaScript, and various frameworks and libraries, enabling me to bring creative designs to life while optimizing for performance and responsiveness.</p>
+            <button class="about_btn">Read More..</button>
+        </div>
+        <div class="about_photo">
+            <img src="image.png" alt="" width="420px" height="400px" >
+        </div>
+ 
+    </section>
+
+    <section id="service">
+        <h1 class="service_section">My<span> Skills</span></h1>
+        <div class="card">
+            <div class="service_card">
+                <i class="fas fa-computer"></i>
+                <h2>Graphic Design</h2>
+                <p>I have experience in creating visually appealing designs for both print and digital media. Using tools like Adobe Photoshop, Illustrator, and InDesign, I design logos, posters, social media graphics, and more. My focus is on making designs that are creative, clear, and meet the needs of the audience.</p>
+                <a href="#">Read More..</a>          
+            </div>
+            <div class="service_card">
+                <i class="fas fa-computer"></i>
+                <h2>UI/UX Design</h2>
+                <p>I design clean and user-friendly interfaces for websites and apps. Using tools like Figma and Adobe XD, I focus on making designs that are easy to use and look great. My goal is to create experiences that work well for all users.</p>
+                <a href="#">Read More..</a>          
+            </div>
+            <div class="service_card">
+                <i class="fas fa-computer"></i>
+                <h2>Web Development</h2>
+                <p>I build responsive and functional websites using modern technologies like HTML, CSS, JavaScript, and frameworks such as React and Bootstrap. I focus on creating user-friendly designs that work well on all devices.</p>
+                <a href="#">Read More...</a>          
+            </div>
+        </div>
+    </section>
+
+
+     <section id="portfolio">
+        <h1 class="port_section">My <span>Projects</span></h1>
+        <div class="project">
+            <div class="port_card">
+                <img src="./image/weather app.png" alt="" width="350px" height="350px">
+                <div class="content">
+                    <h1>Weather App</h1>
+                    <p>Developed a weather application using Python and PyQt5, featuring a user-friendly GUI for seamless interaction</p>
+                </div>
+            </div>
+            <div class="port_card">
+                <img src="./image/jarvis.png" alt="" width="350px" height="350px">
+                <div class="content">
+                    <h1>Jarvis Voice Assistant</h1>
+                    <p>Developed an AI voice assistant, "Jarvis," using Python, featuring voice recognition with SpeechRecognition and PyAudio, and text-to-speech capabilities via pyttsx3 for natural interactions</p>
+                </div>
+            </div>
+            <div class="port_card">
+                <img src="./image/portfolio.png" alt="" width="350px" height="350px">
+                <div class="content">
+                    <h1>Portfolio Webpage</h1>
+                    <p>I designed and developed a responsive portfolio website using HTML and CSS to showcase my skills, projects, and professional achievements</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+      <section id="contact">
+        <div class="form">
+            <h1>Contact <span>Me</span></h1>
+            <form action="#home">
+                <center>
+                <input type="text" name="name" placeholder="Enter Your Name" required=""><br>
+                <input type="email" name="email" placeholder="Enter Your Email" required=""><br>
+                <input type="number" name="mno" placeholder="Enter Your Phone No." required=""><br>
+                <textarea name="msg" id="msg" rows="6" color="20" placeholder="Enter Your Message"></textarea><br>          
+                <button class="form_btn">Submit</button>
+                </center>
+            </form>
+        </div>
+      </section>
+      <div class="footer">
+        <p><i class="fa-regular fa-copyright"></i>Mahesh Kumer I || All Rights Reserved...</p>
+      </div>
+</body>
+</html>
